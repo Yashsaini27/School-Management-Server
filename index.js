@@ -14,7 +14,7 @@ import { institutionRoute } from "./Routes/InstitutionRoute.js";
 
 const app = express() 
 app.use(cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173","https://sms-yash.netlify.app/"],
     methods: ['GET', 'POST', 'PUT', "DELETE"],
     credentials: true
 }))
