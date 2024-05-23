@@ -1,10 +1,10 @@
 import mysql from 'mysql'
 
 const con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "school-management"
+     host: "sql12.freesqldatabase.com",
+    user: "sql12708546",
+    password: "PLQmN4JMTE",
+    database: "sql12708546"
 })
 
 con.connect(function(err) {
